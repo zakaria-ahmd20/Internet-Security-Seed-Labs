@@ -4,7 +4,7 @@ from scapy.layers.l2 import ARP, Ether
 
 IP_V = "10.9.0.5"              # Victim's IP address
 MAC_V_REAL = "02:42:0a:09:00:05"  # Victim's MAC address
-IP_T = "10.9.0.105"              # Target's IP address (e.g., the gateway)
+IP_T = "10.9.0.105"              # attacker's IP address (e.g., the gateway)
 MAC_T_FAKE = "02:42:0a:09:00:69"  # Spoofed MAC address
 
 # Constructing Ethernet and ARP packets
